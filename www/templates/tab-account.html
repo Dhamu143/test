@@ -1,0 +1,21 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+    <button class = "button" on-touch='showBackdrop()'>showBackdrop</button>
+    <button class = "button" ng-click='triggerActionSheet()'>Action Sheet Button</button>
+    <button class = "button" ng-click='showLoading()'>Loading</button>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Friends
+
+    </ion-toggle>
+    </ion-list>
+    <label class = "item item-input">
+   <input type = "text" placeholder = "Input 1">
+</label>
+
+<button class = "button button-block hide-on-keyboard-open">
+   button
+</button>
+
+  </ion-content>
+</ion-view>
